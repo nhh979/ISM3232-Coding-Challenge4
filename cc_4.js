@@ -33,4 +33,10 @@ class EV extends Car {
         super (make, speed);   // Parent class constructor with properties 'make' and 'speed
         this.charge = charge;  // Initiate the instance of the EV class with property 'charge
     }
+
+    // Create a method to update the "charge" property to the new value
+    chargeBattery (chargeTo) {
+        this.charge = chargeTo;  // Update the charge to a different value
+    }
 }
+
